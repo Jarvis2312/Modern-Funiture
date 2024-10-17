@@ -4,10 +4,10 @@ function myHeader(){
     window.addEventListener("scroll" , function(){
         if(window.scrollY > 0){
             header.classList.add("active");
-            lol.src = "Logo-Dark.png";
+            lol.src = "ms-logo.svg";
         }else{
             header.classList.remove("active");
-            lol.src = "Logo-Light.png";
+            lol.src = "white_bg_Logo.svg";
         }
         
     })
